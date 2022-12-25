@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Raleway:ital,wght@0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: rgba(189, 183, 107, 0.89);
+}
+.container {
+  max-width: 900px;
+  min-width: 300px;
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header {
+  background: url("../img/logo.jpg");
+  height: 200px;
+}
+
+.header h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  text-indent: 200px;
+  line-height: 1;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar ul li {
+  background-color: orange;
+  width: 12.4999999%;
+  float: left;
+  border: 1px solid whitesmoke;
+  text-align: center;
+}
+
+.navbar ul li a {
+  background-color: rgba(158, 71, 20, 0.541);
+  width: 100%;
+  padding: 10px;
+  display: inline-block;
+  color: lightgray;
+  text-decoration: none;
+}
+
+.column {
+  width: 49.999999%;
+  float: left;
+  text-align: justify;
+  padding: 20px;
+}
+
+.navbar ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.content .column img {
+  float: left;
+  margin: 0 5px 0 0;
+}
+
+.content .column:last-child img {
+  float: right;
+  margin: 0 0 0 5px;
+  padding: 20px 10px 30px 10px;
+}
+
+.content {
+  padding: 20px 10px 30px 10px;
+  background-color: white;
+}
+
+.content::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column :first-child {
+  padding-left: 5px;
+}
+
+.column:last-child {
+  padding-left: 15px;
+}
+
+.column h2 {
+  color: white;
+  background-color: darkkhaki;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: rgb(165, 108, 42);
+  color: rgb(255, 196, 0);
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 0.8em;
+}
+
+.head {
+  position: sticky;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
